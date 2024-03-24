@@ -1,0 +1,18 @@
+var friend_name = "Wareesha";
+console.log(friend_name == "waresha");
+console.log(friend_name != "Waresha");
+var num = 20;
+console.log(num == 20);
+console.log(num != 25);
+console.log(num > 25);
+console.log(num < 20);
+console.log(num <= 5);
+console.log(num >= 20);
+var numFirst = 2;
+var numSecond = 4;
+console.log(numFirst == 2 && numSecond < 6);
+console.log(numFirst < 5 || numSecond < 1);
+var my_array = [2, 3, 6, 8];
+var array_2 = 2;
+console.log(Array.isArray(my_array));
+console.log(Array.isArray(array_2));

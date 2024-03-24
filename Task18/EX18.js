@@ -1,0 +1,18 @@
+var favourite_place = ["Muree", "Swat", "Islamabad", "Lahore", "Karachi"];
+//console.log(favourite_place);
+var ArrayCopy = favourite_place.slice();
+var sorted_array = ArrayCopy.sort();
+//console.log(sorted_array);
+//console.log(favourite_place);
+var arraycopy_2 = favourite_place.slice();
+var reversedArray = arraycopy_2.reverse();
+//console.log(reversedArray);
+//console.log(favourite_place);
+var oriarrayReversed = favourite_place.reverse();
+//console.log(oriarrayReversed);
+var reversing_again = favourite_place.reverse();
+//console.log(reversing_again);
+var original_array = favourite_place.sort();
+console.log(original_array);
+var reversesortedArray = favourite_place.reverse();
+console.log(reversedArray);
